@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "wagmi starter",
-  description: "wagmi starter",
+  title: "porto demo",
+  description: "porto starter",
 };
 
 export default function RootLayout({
