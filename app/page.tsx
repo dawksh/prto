@@ -47,7 +47,6 @@ export default function Home() {
       {isConnected && (
         <div className="flex flex-col items-center gap-2">
           <p>Connected to <span className="font-bold">{address?.slice(0, 6)}...{address?.slice(-4)}</span> via <span className="font-bold">porto</span></p>
-          <p>{JSON.stringify(capabilities)}</p>
           <Button onClick={buy}>Buy</Button>
           <Button onClick={() => disconnect()}>Disconnect</Button>
         </div>
